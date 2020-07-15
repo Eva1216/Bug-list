@@ -44,19 +44,19 @@ ZDI-CAN-10892
 
 VIRTUALBOX:
 
-CVE-2020-2959
+[CVE-2020-2959](https://www.oracle.com/security-alerts/cpuapr2020.html)
 
-CVE-2020-14714
+[CVE-2020-14714](https://www.oracle.com/security-alerts/cpujul2020.html)
 
-CVE-2020-14715
+[CVE-2020-14715](https://www.oracle.com/security-alerts/cpujul2020.html)
 
-CVE-2020-14707
+[CVE-2020-14707](https://www.oracle.com/security-alerts/cpujul2020.html)
 
-ZDI-CAN-11137
+[ZDI-CAN-11137(CVE-2020-14698)](https://www.oracle.com/security-alerts/cpujul2020.html)
 
-ZDI-CAN-11138
+[ZDI-CAN-11138(CVE-2020-14699)](https://www.oracle.com/security-alerts/cpujul2020.html)
 
-ZDI-CAN-11140
+[ZDI-CAN-11140(CVE-2020-14700)](https://www.oracle.com/security-alerts/cpujul2020.html)
 
 Paralles desktop:
 
