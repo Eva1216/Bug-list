@@ -41,6 +41,7 @@ ZDI-CAN-10892
 
 [CVE-2020-14415](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14415)
 
+CVE-2020-15863
 
 VIRTUALBOX:
 
