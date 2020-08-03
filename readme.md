@@ -64,3 +64,6 @@ VIRTUALBOX:
 Paralles desktop:
 
 ZDI-CAN-11253
+
+ASUS：
+预定个位置，官方修复了扔exp
