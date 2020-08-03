@@ -43,7 +43,7 @@ ZDI-CAN-10892
 
 [CVE-2020-15863](https://seclists.org/oss-sec/2020/q3/49?utm_source=dlvr.it&utm_medium=twitter)
 
-[CVE-2020-16092](https://access.redhat.com/security/cve/CVE-2020-16092)
+[CVE-2020-16092](https://bugzilla.redhat.com/show_bug.cgi?id=1860283)
 
 VIRTUALBOX:
 
