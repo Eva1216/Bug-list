@@ -31,6 +31,8 @@ NETIS:
 
 QEMU:
 
+CVE-2020-14364 
+
 [CVE-2020-11102](https://www.openwall.com/lists/oss-security/2020/04/06/1)
 
 [CVE-2020-11869](https://git.qemu.org/?p=qemu.git;a=commit;h=ac2071c3791b67fc7af78b8ceb320c01ca1b5df7)
