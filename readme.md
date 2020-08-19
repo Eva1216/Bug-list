@@ -37,7 +37,7 @@ QEMU:
 
 [CVE-2020-12829](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12829)
 
-ZDI-CAN-10892
+[CVE-2020-10756(ZDI-CAN-10892)](https://access.redhat.com/security/cve/CVE-2020-10756)
 
 [CVE-2020-14415](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14415)
 
@@ -63,5 +63,4 @@ VIRTUALBOX:
 
 Paralles desktop:
 
-ZDI-CAN-11253
-
+ZDI-CAN-11253(CVE-2020-17397)(https://kb.parallels.com/en/125013)...明明是从虚拟机发出的数据直接在宿主机内核crash的..这也算权限提升醉了
