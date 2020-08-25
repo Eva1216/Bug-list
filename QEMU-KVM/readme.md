@@ -42,14 +42,18 @@ case SETUP_STATE_DATA:
             return;
         }
         
-```         
+       
 usb_packet_copy copies the data, do_token_in transmits the device data to the user, do_token_out transmits the user data to the device, the transmission size is MIN (p->setup_len,iov_size), iov_size is increased by qemu_sglist_add, and the maximum can reach 0x5000. So we can theoretically Transfer 0x5000 size data to s->data_buf, or copy 0x5000 size data from s->data_buf. But the size of s->data_buf is only 0x1000 size, causing out-of-bounds read and out-of-bounds write.
 
 
 We noticed that s->setup_state needs to be SETUP_STATE_DATA, which is assigned in do_token_setup. When we pass in a large length, it will return the incorrect assignment s->setup_state. But it can be bypassed by the following steps.
+
 1.do_token_setup(len=0xff);//set s->setup_state=SETUP_STATE_DATA
+
 2.do_token_setup(len=0xffff);//set s->setup_len=0xffff,
+
 3.do_token_in/out (read and write out of bounds)
+
 Complete utilization process:
 
 ``` 
