@@ -225,7 +225,7 @@ uint64_t dev_addr=usb_device.ep_ctl.dev;
 uint64_t *tmp=dmabuf+0x24f4;
 long long base=*tmp;
 if(base == 0){
-printf("INIT DOWN,DO IT AGAIN");
+printf("DO IT AGAIN");
 return 0;
 }
 
